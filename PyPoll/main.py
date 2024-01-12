@@ -29,7 +29,7 @@ with open(election_data, 'r') as csvfile:
         candidate = row[2]
         
 
-        #Update the toatl number of votes
+        #Update the total number of votes
         total_votes += 1
 
         #Update the total number votes for candidate
